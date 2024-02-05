@@ -1,32 +1,28 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="EUC-KR">
-<title>Insert title here</title>
-</head>
-<body>
-	<div class="jumbotron text-center">
-		<h1>My First Bootstrap Page</h1>
-		<p>Resize this responsive page to see the effect!</p>
-	</div>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4">
-				<h3>Column 1</h3>
-				<p>Lorem ipsum dolor..</p>
-			</div>
-			<div class="col-sm-4">
-				<h3>Column 2</h3>
-				<p>Lorem ipsum dolor..</p>
-			</div>
-			<div class="col-sm-4">
-				<h3>Column 3</h3>
-				<p>Lorem ipsum dolor..</p>
-			</div>
-		</div>
-	</div>
-</body>
-</html>
+<!-- header.jsp -->
+<%@include file="/WEB-INF/view/layout/header.jsp"%>
+<div class="col-sm-8">
+	<h2>TITLE HEADING</h2>
+	<h5>Title description, Dec 7, 2017</h5>
+	<div class="fakeimg">Fake Image</div>
+	<p>Some text..</p>
+	<p>Sunt in culpa qui officia deserunt mollit anim id est laborum
+		consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+		exercitation ullamco.</p>
+	<br>
+	<h2>TITLE HEADING</h2>
+	<h5>Title description, Sep 2, 2017</h5>
+	<div class="fakeimg">Fake Image</div>
+	<p>Some text..</p>
+	<p>Sunt in culpa qui officia deserunt mollit anim id est laborum
+		consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+		exercitation ullamco.</p>
+</div>
+</div>
+</div>
+<!-- footer.jsp -->
+<%@include file="/WEB-INF/view/layout/footer.jsp"%>

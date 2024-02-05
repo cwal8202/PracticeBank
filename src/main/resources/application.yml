@@ -12,7 +12,8 @@ spring:
       prefix: /WEB-INF/view/
       suffix: .jsp
   datasource:
-    url: jdbc:mysql://localhost:3306/practicebank?serverTimeZone=Asia/Seoul
+   # url: jdbc:mysql://localhost:3306/practicebank?serverTimeZone=Asia/Seoul
+    url: jdbc:mysql://localhost:3306/practicebank?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
